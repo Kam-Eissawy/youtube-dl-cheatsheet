@@ -20,6 +20,7 @@ youtube-dl [OPTIONS] URL [URL...]
 To download Youtube videos use the following commands and replace URL with a valid Youtube video URL
 
  **Download video using default options**
+ 
 Used when you want to download the best available quality without specifying any extra options
 ```
 $ youtube-dl URL
