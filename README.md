@@ -91,3 +91,28 @@ Write video annotations to a .annotations.xml file
 ```
 $ youtube-dl --write-annotations URL
 ```
+Write thumbnail image to disk
+```
+$ youtube-dl --write-thumbnail URL
+```
+
+## Quiet mode options
+```
+-q                               Activate quiet mode
+--no-warnings                    Ignore warnings
+--skip-download                  Do not download the video
+-g                               Simulate, quiet but print URL
+-e                               Simulate, quiet but print title
+--get-id                         Simulate, quiet but print id
+--get-thumbnail                  Simulate, quiet but print thumbnail URL
+--get-description                Simulate, quiet but print video description
+--get-duration                   Simulate, quiet but print video length
+--get-filename                   Simulate, quiet but print output filename
+--get-format                     Simulate, quiet but print output format
+-j                               Simulate, quiet but print JSON information.
+--print-json                     Be quiet and print the video information as
+                                 JSON (video is still being downloaded).
+--no-progress                    Do not print progress bar
+--console-title                  Display progress in console titlebar
+-v                               Print various debugging information
+```
